@@ -78,7 +78,19 @@ namespace Lista_SE_Cascaron
         }
         static void eliminarQuePosPar(Lista_SE<string> lista){
             Nodo_SE<string> aux = lista.PrimerE();
-            // este esta fula , es el estudio indep
+            for (int cantRep = 0; aux != null; aux = aux.Prox){
+                if (aux.Info == "que"){
+                    cantRep++;
+                }
+                if (aux.Prox == null){
+                    break;
+                }
+                if (cantRep % 2 != 0 && aux.Prox.Info == "que"){
+                    aux.Prox = aux.Prox.Prox;
+                    cantRep++;
+                }
+
+            }
         }
 		public static void Main(string[] args)
 		{
@@ -87,10 +99,11 @@ namespace Lista_SE_Cascaron
             Lista.Adicionar("casa");
             Lista.Adicionar("que");
             Lista.Adicionar("que");
-            Lista.Adicionar("que");
+
             Lista.Adicionar("pato");
+            Lista.Adicionar("que");
 
-
+            eliminarQuePosPar(Lista);
 
 
             Lista.Mostrar();            

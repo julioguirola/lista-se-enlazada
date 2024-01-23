@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/guirola/Documents/2.1/ED/Lista_SE_Cascaron/Lista_SE_Cascaron.csproj": {}
+    "/home/guirola/Documents/2.1/ED/lista-se-enlazada/Lista_SE_Cascaron.csproj": {}
   },
   "projects": {
-    "/home/guirola/Documents/2.1/ED/Lista_SE_Cascaron/Lista_SE_Cascaron.csproj": {
+    "/home/guirola/Documents/2.1/ED/lista-se-enlazada/Lista_SE_Cascaron.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/guirola/Documents/2.1/ED/Lista_SE_Cascaron/Lista_SE_Cascaron.csproj",
+        "projectUniqueName": "/home/guirola/Documents/2.1/ED/lista-se-enlazada/Lista_SE_Cascaron.csproj",
         "projectName": "Lista_SE_Cascaron",
-        "projectPath": "/home/guirola/Documents/2.1/ED/Lista_SE_Cascaron/Lista_SE_Cascaron.csproj",
+        "projectPath": "/home/guirola/Documents/2.1/ED/lista-se-enlazada/Lista_SE_Cascaron.csproj",
         "packagesPath": "/home/guirola/.nuget/packages/",
-        "outputPath": "/home/guirola/Documents/2.1/ED/Lista_SE_Cascaron/obj/",
+        "outputPath": "/home/guirola/Documents/2.1/ED/lista-se-enlazada/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/guirola/.nuget/NuGet/NuGet.Config"
