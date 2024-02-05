@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lista_SE_Cascaron")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e936ea254d370a358e6ecdd63dfc2fb944e41345")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+774c9ea26330ee20e61d162342150fa752442cbb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lista_SE_Cascaron")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lista_SE_Cascaron")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

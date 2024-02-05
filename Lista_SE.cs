@@ -273,5 +273,40 @@ namespace Lista_SE_Cascaron
             }
             return pos;
         }
+
+        public void interCambiar(int pos1, int pos2){
+
+            if (pos1 == pos2){
+                return;
+            }
+
+            Nodo_SE<T> aux = inicio;
+            Nodo_SE<T> ant1 = new Nodo_SE<T>();
+            Nodo_SE<T> ant2 = new Nodo_SE<T>();
+            Nodo_SE<T> actual1 = new Nodo_SE<T>();
+            Nodo_SE<T> actual2 = new Nodo_SE<T>();
+
+            for (int i = 0; i <= ce; i++)
+            {
+                if (i == pos1 - 1){
+                    ant1 = aux;
+                    actual1 = aux.Prox;
+                }
+                if (i == pos2 - 1){
+                    ant2 = aux;
+                    actual2 = aux.Prox;
+                }
+                aux = aux.Prox;
+            }
+
+            actual2.Prox = ant1.Prox.Prox;
+            ant1.Prox = actual2;
+            actual1.Prox = ant2.Prox.Prox;
+            ant2.Prox = actual1;
+
+
+        }
+
+        
 	}
 }

@@ -94,19 +94,22 @@ namespace Lista_SE_Cascaron
         }
 		public static void Main(string[] args)
 		{
-            Lista_SE<string> Lista = new Lista_SE<string>("que");
+            Lista_SE<string> Lista = new Lista_SE<string>("0");
 
-            Lista.Adicionar("casa");
-            Lista.Adicionar("que");
-            Lista.Adicionar("que");
+            Lista.Adicionar("1");
+            Lista.Adicionar("2");
+            Lista.Adicionar("3");
 
-            Lista.Adicionar("pato");
-            Lista.Adicionar("que");
+            Lista.Adicionar("4");
+            Lista.Adicionar("5");
 
-            eliminarQuePosPar(Lista);
+            Lista.interCambiar(5,2);
 
+            Lista.Mostrar();
 
-            Lista.Mostrar();            
+              
 		}
+
+    
 	}
 }
